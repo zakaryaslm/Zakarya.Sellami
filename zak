@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakarya Sellami</title>
+</head>
+
+<body>
+
+    <h1>Zakarya Sellami</h1>
+
+    <h2>Mathematics × Finance × Data</h2>
+
+    <p>
+        Étudiant en mathématiques appliquées à l'économie et à la finance
+        à l'Université Paris 1 Panthéon-Sorbonne.
+    </p>
+
+    <h2>About me</h2>
+
+    <p>
+        Je m'intéresse à la finance quantitative, à la gestion des risques,
+        aux mathématiques financières et à la data science.
+    </p>
+
+    <h2>Education</h2>
+
+    <p>
+        Master MMMEF — Mathématiques, Modélisation et Économie Financière<br>
+        Université Paris 1 Panthéon-Sorbonne
+    </p>
+
+    <h2>Projects</h2>
+
+    <p>
+        Mes projets en finance quantitative, Python, statistiques
+        et machine learning seront bientôt disponibles.
+    </p>
+
+    <h2>Contact</h2>
+
+    <p>
+        GitHub · LinkedIn · Email
+    </p>
+
+</body>
+</html>
