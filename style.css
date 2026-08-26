@@ -41,9 +41,9 @@ body {
     width: 100%;
     z-index: 100;
 
-    padding: 21px 6%;
+    padding: 24px 6%;
 
-    background: rgba(13,17,23,0.82);
+    background: rgba(13,17,23,0.78);
 
     backdrop-filter: blur(14px);
 
@@ -53,8 +53,6 @@ body {
 .navbar nav {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-
     gap: 30px;
 }
 
@@ -89,8 +87,6 @@ body {
 
     padding: 120px 8%;
 
-    border-bottom: 1px solid var(--border);
-
     background:
         radial-gradient(
             circle at 50% 40%,
@@ -99,28 +95,8 @@ body {
         );
 }
 
-.hero::before {
-    content: "";
-
-    position: absolute;
-
-    width: 420px;
-    height: 420px;
-
-    border-radius: 50%;
-
-    background: rgba(96,165,250,0.035);
-
-    filter: blur(80px);
-
-    pointer-events: none;
-}
-
 .hero-content {
     max-width: 900px;
-
-    position: relative;
-    z-index: 2;
 }
 
 .hero-label {
@@ -147,23 +123,16 @@ body {
 
 .hero-subtitle {
     font-size: 25px;
-
-    color: var(--text);
 }
 
 .hero-school {
     color: var(--text-muted);
-
     font-size: 15px;
-
-    margin-top: 4px;
 }
 
 .hero-links {
     display: flex;
-
     justify-content: center;
-
     gap: 16px;
 
     margin-top: 45px;
@@ -171,19 +140,15 @@ body {
 
 .hero-link {
     display: flex;
-
     align-items: center;
-
     gap: 12px;
 
     padding: 12px 20px;
 
     border: 1px solid var(--border);
-
     border-radius: 30px;
 
     color: var(--text);
-
     text-decoration: none;
 
     background: rgba(255,255,255,0.025);
@@ -197,8 +162,6 @@ body {
     border-color: var(--accent);
 
     transform: translateY(-3px);
-
-    background: rgba(94,234,212,0.035);
 }
 
 .hero-link span {
@@ -214,15 +177,12 @@ body {
     position: absolute;
 
     bottom: 35px;
-
     left: 50%;
 
     transform: translateX(-50%);
 
     display: flex;
-
     flex-direction: column;
-
     align-items: center;
 
     gap: 8px;
@@ -238,7 +198,6 @@ body {
 
 .scroll-line {
     width: 1px;
-
     height: 45px;
 
     background: var(--accent);
@@ -260,31 +219,13 @@ body {
 }
 
 .section-heading {
-    margin-bottom: 65px;
-
-    position: relative;
+    margin-bottom: 70px;
 }
 
 .section-heading h2 {
     font-size: 48px;
 
     letter-spacing: -2px;
-
-    line-height: 1.05;
-}
-
-.section-heading::after {
-    content: "";
-
-    display: block;
-
-    width: 45px;
-
-    height: 1px;
-
-    margin-top: 22px;
-
-    background: var(--accent);
 }
 
 
@@ -296,42 +237,16 @@ body {
     max-width: 850px;
 
     margin-left: 80px;
-
-    position: relative;
-}
-
-.section-content::before {
-    content: "";
-
-    position: absolute;
-
-    left: -25px;
-
-    top: 8px;
-
-    width: 3px;
-
-    height: 70px;
-
-    background: var(--accent);
-
-    opacity: 0.8;
 }
 
 .section-content p {
-    font-size: 19px;
+    font-size: 20px;
 
-    line-height: 1.85;
+    line-height: 1.8;
 
     color: #d1d5db;
 
     margin-bottom: 30px;
-}
-
-.section-content p:first-child {
-    font-size: 22px;
-
-    color: var(--text);
 }
 
 
@@ -341,18 +256,16 @@ body {
 
 .education-list {
     margin-left: 80px;
-
-    padding-top: 5px;
 }
 
 .education-item {
     display: grid;
 
-    grid-template-columns: 165px 2px 1fr;
+    grid-template-columns: 150px 2px 1fr;
 
     column-gap: 35px;
 
-    min-height: 155px;
+    min-height: 145px;
 
     position: relative;
 }
@@ -360,15 +273,13 @@ body {
 .education-date {
     color: var(--text-muted);
 
-    font-size: 12px;
+    font-size: 13px;
 
     text-align: right;
 
-    padding-top: 5px;
+    padding-top: 3px;
 
     white-space: nowrap;
-
-    line-height: 1.5;
 }
 
 .education-line {
@@ -388,11 +299,9 @@ body {
     position: absolute;
 
     top: 5px;
-
     left: -5px;
 
     width: 9px;
-
     height: 9px;
 
     border-radius: 50%;
@@ -400,14 +309,10 @@ body {
     background: var(--background);
 
     border: 2px solid var(--accent);
-
-    box-shadow: 0 0 0 4px rgba(94,234,212,0.035);
 }
 
 .education-content {
     padding-bottom: 55px;
-
-    padding-left: 2px;
 }
 
 .education-content h3 {
@@ -428,12 +333,6 @@ body {
     color: var(--text-muted);
 
     font-size: 14px;
-
-    line-height: 1.7;
-
-    display: block;
-
-    max-width: 680px;
 }
 
 
@@ -451,10 +350,7 @@ body {
     display: flex;
 
     justify-content: space-between;
-
     align-items: center;
-
-    gap: 40px;
 
     padding: 32px 10px;
 
@@ -467,10 +363,6 @@ body {
     padding-left: 20px;
 
     background: rgba(255,255,255,0.02);
-}
-
-.experience-item > div {
-    flex: 1;
 }
 
 .experience-date {
@@ -486,27 +378,19 @@ body {
 .experience-item h3 {
     font-size: 22px;
 
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
 .experience-item p {
     color: var(--text-muted);
 
     font-size: 14px;
-
-    max-width: 720px;
 }
 
 .experience-arrow {
     color: var(--accent);
 
     font-size: 22px;
-
-    transition: 0.3s ease;
-}
-
-.experience-item:hover .experience-arrow {
-    transform: translateX(5px);
 }
 
 
@@ -530,9 +414,7 @@ body {
     padding: 30px;
 
     display: flex;
-
     flex-direction: column;
-
     justify-content: space-between;
 
     background:
@@ -560,7 +442,6 @@ body {
 
 .project-top {
     display: flex;
-
     justify-content: space-between;
 
     color: var(--text-muted);
@@ -597,7 +478,6 @@ body {
 
 .tags {
     display: flex;
-
     flex-wrap: wrap;
 
     gap: 8px;
@@ -613,14 +493,6 @@ body {
     color: var(--text-muted);
 
     font-size: 11px;
-
-    transition: 0.25s ease;
-}
-
-.tags span:hover {
-    color: var(--accent);
-
-    border-color: rgba(94,234,212,0.4);
 }
 
 
@@ -646,28 +518,12 @@ body {
     border-radius: 16px;
 
     background: rgba(255,255,255,0.02);
-
-    transition: 0.3s ease;
-}
-
-.skill-category:hover {
-    border-color: rgba(94,234,212,0.25);
-
-    background: rgba(255,255,255,0.028);
 }
 
 .skill-category h3 {
     font-size: 19px;
 
     margin-bottom: 20px;
-}
-
-.skill-category p {
-    color: var(--text-muted);
-
-    font-size: 14px;
-
-    line-height: 1.8;
 }
 
 
@@ -715,16 +571,12 @@ body {
     font-size: 14px;
 
     margin-bottom: 12px;
-
-    line-height: 1.7;
 }
 
 .engagement-item span {
     color: var(--text-muted);
 
     font-size: 14px;
-
-    line-height: 1.7;
 }
 
 
@@ -770,15 +622,13 @@ body {
 .sport-item h3 {
     font-size: 29px;
 
-    margin: 55px 0 12px;
+    margin: 65px 0 10px;
 }
 
 .sport-item p {
     color: var(--text-muted);
 
     font-size: 14px;
-
-    line-height: 1.75;
 }
 
 
@@ -787,37 +637,33 @@ body {
 ========================= */
 
 .contact-section {
-    padding-top: 125px;
+    padding-top: 150px;
 
-    padding-bottom: 145px;
+    padding-bottom: 170px;
 }
 
 .contact-main {
     margin-left: 80px;
-
-    max-width: 900px;
 }
 
 .contact-title {
-    margin-bottom: 55px;
+    margin-bottom: 65px;
 }
 
 .contact-title h2 {
-    font-size: clamp(55px, 8vw, 90px);
+    font-size: clamp(65px, 9vw, 110px);
 
-    line-height: 0.95;
+    line-height: 0.9;
 
-    letter-spacing: -5px;
+    letter-spacing: -6px;
 
-    margin-bottom: 22px;
+    margin-bottom: 25px;
 }
 
 .contact-title p {
     color: var(--text-muted);
 
-    font-size: 16px;
-
-    max-width: 600px;
+    font-size: 17px;
 }
 
 .contact-links {
@@ -833,7 +679,7 @@ body {
 
     align-items: center;
 
-    padding: 25px 10px;
+    padding: 27px 10px;
 
     border-bottom: 1px solid var(--border);
 
@@ -845,7 +691,7 @@ body {
 }
 
 .contact-link:hover {
-    padding-left: 20px;
+    padding-left: 22px;
 
     background: rgba(255,255,255,0.025);
 }
@@ -869,7 +715,7 @@ body {
 }
 
 .contact-link strong {
-    font-size: 17px;
+    font-size: 18px;
 
     font-weight: 500;
 }
@@ -877,7 +723,7 @@ body {
 .contact-arrow {
     color: var(--accent);
 
-    font-size: 22px;
+    font-size: 24px;
 
     transition: 0.3s ease;
 }
@@ -907,10 +753,6 @@ footer {
 ========================= */
 
 @media (max-width: 900px) {
-
-    .navbar {
-        padding: 20px 5%;
-    }
 
     .navbar nav {
         gap: 16px;
@@ -996,14 +838,6 @@ footer {
         font-size: 17px;
     }
 
-    .section-content p:first-child {
-        font-size: 19px;
-    }
-
-    .section-content::before {
-        left: -15px;
-    }
-
     .education-item {
         grid-template-columns: 1fr;
 
@@ -1024,8 +858,6 @@ footer {
 
     .education-date {
         text-align: left;
-
-        padding-top: 0;
     }
 
     .engagement-item {
