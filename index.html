@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -9,18 +10,14 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
-<!-- ================= NAVBAR ================= -->
-
 <header class="navbar">
-
-    <div class="nav-line"></div>
-
     <nav>
         <a href="#about">About</a>
         <a href="#education">Education</a>
@@ -31,105 +28,75 @@
         <a href="#sports">Sports</a>
         <a href="#contact">Contact</a>
     </nav>
-
 </header>
 
 
 <main>
 
-<!-- ================= HERO ================= -->
+    <!-- HERO -->
 
-<section class="hero" id="home">
+    <section class="hero" id="home">
 
-    <div class="hero-grid"></div>
+        <div class="hero-content">
 
-    <div class="hero-decoration decoration-one"></div>
-    <div class="hero-decoration decoration-two"></div>
+            <p class="hero-label">Portfolio</p>
 
-    <div class="hero-content">
+            <h1>Zakarya Sellami</h1>
 
-        <div class="hero-kicker">
-            <span class="status-dot"></span>
-            PORTFOLIO · 2026
-        </div>
+            <p class="hero-subtitle">
+                Étudiant en Master MMMEF
+            </p>
 
-        <h1>
-            Zakarya Sellami
-        </h1>
+            <p class="hero-school">
+                Université Paris 1 Panthéon-Sorbonne
+            </p>
 
-        <div class="hero-divider"></div>
+            <div class="hero-links">
 
-        <p class="hero-subtitle">
-            Étudiant en Master MMMEF
-        </p>
+                <a
+                    href="https://github.com/zakaryaslm"
+                    target="_blank"
+                    class="hero-link"
+                >
+                    <i class="fa-brands fa-github"></i>
+                    GitHub <span>↗</span>
+                </a>
 
-        <p class="hero-school">
-            Université Paris 1 Panthéon-Sorbonne
-        </p>
+                <a
+                    href="https://www.linkedin.com/in/zakarya-sellami/"
+                    target="_blank"
+                    class="hero-link"
+                >
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    LinkedIn <span>↗</span>
+                </a>
 
-        <div class="hero-links">
+                <a href="#contact" class="hero-link">
+                    <i class="fa-regular fa-envelope"></i>
+                    Contact <span>↗</span>
+                </a>
 
-            <a href="https://github.com/zakaryaslm"
-               target="_blank"
-               class="hero-link">
-
-                <i data-lucide="github"></i>
-                <span>GitHub</span>
-                <i data-lucide="arrow-up-right"></i>
-
-            </a>
-
-            <a href="https://www.linkedin.com/in/zakarya-sellami/"
-               target="_blank"
-               class="hero-link">
-
-                <i data-lucide="linkedin"></i>
-                <span>LinkedIn</span>
-                <i data-lucide="arrow-up-right"></i>
-
-            </a>
-
-            <a href="#contact" class="hero-link">
-
-                <i data-lucide="mail"></i>
-                <span>Contact</span>
-                <i data-lucide="arrow-up-right"></i>
-
-            </a>
+            </div>
 
         </div>
 
-    </div>
-
-    <div class="scroll-indicator">
-        <span>Scroll to explore</span>
-        <div class="scroll-line"></div>
-    </div>
-
-</section>
-
-
-<!-- ================= ABOUT ================= -->
-
-<section id="about" class="section about-section reveal">
-
-    <div class="section-heading">
-
-        <div class="heading-symbol">
-            <i data-lucide="user-round"></i>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
         </div>
 
-        <div>
-            <span class="section-label">PROFILE</span>
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section id="about" class="section">
+
+        <div class="section-heading">
             <h2>About</h2>
         </div>
 
-    </div>
-
-
-    <div class="about-layout">
-
-        <div class="about-text">
+        <div class="section-content">
 
             <p>
                 Je suis étudiant en Master MMMEF à l'Université
@@ -151,953 +118,674 @@
 
         </div>
 
-
-        <div class="about-visual">
-
-            <div class="visual-line line-1"></div>
-            <div class="visual-line line-2"></div>
-            <div class="visual-line line-3"></div>
-
-            <div class="visual-point point-1"></div>
-            <div class="visual-point point-2"></div>
-            <div class="visual-point point-3"></div>
-
-            <span class="visual-caption">
-                Mathematics · Finance · Technology
-            </span>
-
-        </div>
-
-    </div>
-
-</section>
+    </section>
 
 
-<!-- ================= EDUCATION ================= -->
+    <!-- EDUCATION -->
 
-<section id="education" class="section reveal">
+    <section id="education" class="section">
 
-    <div class="section-heading">
-
-        <div class="heading-symbol">
-            <i data-lucide="graduation-cap"></i>
-        </div>
-
-        <div>
-            <span class="section-label">ACADEMIC BACKGROUND</span>
+        <div class="section-heading">
             <h2>Education</h2>
         </div>
 
-    </div>
+        <div class="education-list">
 
 
-    <div class="education-timeline">
+            <!-- 2026 — PRESENT -->
 
+            <article class="education-item">
 
-        <!-- LICENCE -->
-
-        <article class="education-item">
-
-            <div class="education-marker">
-                <i data-lucide="sigma"></i>
-            </div>
-
-            <div class="education-date">
-                2022 — 2025
-            </div>
-
-            <div class="education-content">
-
-                <h3>Licence MIASHS</h3>
-
-                <p class="education-school">
-                    Université Paris Nanterre
-                </p>
-
-                <p class="education-description">
-                    Formation pluridisciplinaire en mathématiques,
-                    informatique et économie, avec une approche
-                    quantitative des problématiques économiques.
-                </p>
-
-                <div class="tags">
-                    <span>Mathematics</span>
-                    <span>Computer Science</span>
-                    <span>Economics</span>
+                <div class="education-date">
+                    2026 — Present
                 </div>
 
-            </div>
+                <div class="education-line"></div>
 
-        </article>
+                <div class="education-content">
 
+                    <div class="education-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
 
-        <!-- MASTER 1 -->
+                    <div>
 
-        <article class="education-item">
+                        <h3>Master 2 — MMMEF</h3>
 
-            <div class="education-marker">
-                <i data-lucide="bar-chart-3"></i>
-            </div>
+                        <p>
+                            Université Paris 1 Panthéon-Sorbonne
+                        </p>
 
-            <div class="education-date">
-                2025 — 2026
-            </div>
+                        <span>
+                            Mathématiques · Modélisation · Économie · Finance
+                        </span>
 
-            <div class="education-content">
+                    </div>
 
-                <h3>Master 1 — MAEF</h3>
-
-                <p class="education-school">
-                    Université Paris 1 Panthéon-Sorbonne
-                </p>
-
-                <p class="education-description">
-                    Formation en mathématiques appliquées à l'économie
-                    et à la finance, avec un fort accent sur la
-                    modélisation quantitative et la programmation.
-                </p>
-
-                <div class="tags">
-                    <span>Probability</span>
-                    <span>Statistics</span>
-                    <span>Econometrics</span>
-                    <span>Python</span>
-                    <span>Finance</span>
                 </div>
 
-            </div>
-
-        </article>
+            </article>
 
 
-        <!-- 42 -->
+            <!-- 2026 — 42 -->
 
-        <article class="education-item">
+            <article class="education-item">
 
-            <div class="education-marker blue-marker">
-                <i data-lucide="terminal"></i>
-            </div>
-
-            <div class="education-date">
-                2026
-            </div>
-
-            <div class="education-content">
-
-                <h3>Piscine — École 42</h3>
-
-                <p class="education-school">
-                    École 42 · Paris
-                </p>
-
-                <p class="education-description blue-text">
-                    Programme intensif de 4 semaines en programmation
-                </p>
-
-                <div class="tags">
-                    <span>Programming</span>
-                    <span>C</span>
+                <div class="education-date">
+                    2026
                 </div>
 
-            </div>
+                <div class="education-line"></div>
 
-        </article>
+                <div class="education-content">
 
+                    <div class="education-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
 
-        <!-- MASTER 2 -->
+                    <div>
 
-        <article class="education-item current-education">
+                        <h3>Piscine — École 42</h3>
 
-            <div class="education-marker">
-                <i data-lucide="landmark"></i>
-            </div>
+                        <p>
+                            Programme intensif de 4 semaines en programmation
+                        </p>
 
-            <div class="education-date">
-                2026 — Present
-            </div>
+                    </div>
 
-            <div class="education-content">
-
-                <div class="current-badge">
-                    CURRENT
                 </div>
 
-                <h3>Master 2 — MMMEF</h3>
+            </article>
 
-                <p class="education-school">
-                    Université Paris 1 Panthéon-Sorbonne
-                </p>
 
-                <p class="education-description">
-                    Mathématiques, modélisation, économie et finance,
-                    avec une orientation vers les méthodes quantitatives.
-                </p>
+            <!-- 2025 — 2026 -->
 
-                <div class="tags">
-                    <span>Stochastic Calculus</span>
-                    <span>Machine Learning</span>
-                    <span>Finance</span>
-                    <span>Quantitative Methods</span>
+            <article class="education-item">
+
+                <div class="education-date">
+                    2025 — 2026
                 </div>
 
-            </div>
+                <div class="education-line"></div>
 
-        </article>
+                <div class="education-content">
 
-    </div>
+                    <div class="education-icon">
+                        <i class="fa-solid fa-square-root-variable"></i>
+                    </div>
 
-</section>
+                    <div>
+
+                        <h3>Master 1 — MAEF</h3>
+
+                        <p>
+                            Université Paris 1 Panthéon-Sorbonne
+                        </p>
+
+                        <span>
+                            Probabilités · Statistiques · Économétrie ·
+                            Optimisation · Python · Finance
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
 
 
-<!-- ================= EXPERIENCE ================= -->
+            <!-- 2022 — 2025 -->
 
-<section id="experience" class="section reveal">
+            <article class="education-item">
 
-    <div class="section-heading">
+                <div class="education-date">
+                    2022 — 2025
+                </div>
 
-        <div class="heading-symbol">
-            <i data-lucide="briefcase-business"></i>
+                <div class="education-line"></div>
+
+                <div class="education-content">
+
+                    <div class="education-icon">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>Licence — MIASHS</h3>
+
+                        <p>
+                            Université Paris Nanterre
+                        </p>
+
+                        <span>
+                            Mathématiques · Informatique · Économie
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
         </div>
 
-        <div>
-            <span class="section-label">PROFESSIONAL EXPERIENCE</span>
+    </section>
+
+
+    <!-- EXPERIENCE -->
+
+    <section id="experience" class="section">
+
+        <div class="section-heading">
             <h2>Experience</h2>
         </div>
 
-    </div>
+        <div class="experience-list">
 
 
-    <div class="experience-list">
+            <!-- PLUS RÉCENTE -->
 
+            <article class="experience-item">
 
-        <!-- TELEPERFORMANCE -->
+                <div>
+                    <span class="experience-date">
+                        Juin — Juil. 2026 · Lisbonne, Portugal
+                    </span>
 
-        <article class="experience-item">
+                    <h3>Teleperformance</h3>
 
-            <div class="experience-meta">
-
-                <span class="experience-date">
-                    JUN — JUL 2026
-                </span>
-
-                <span class="experience-location">
-                    <i data-lucide="map-pin"></i>
-                    Lisbon, Portugal
-                </span>
-
-            </div>
-
-            <div class="experience-main">
-
-                <div class="experience-company">
-                    Teleperformance
+                    <p>
+                        Mission pour Meta
+                    </p>
                 </div>
 
-                <h3>
-                    Customer Service / Operations
-                </h3>
+                <span class="experience-arrow">↗</span>
 
-                <span class="experience-client">
-                    Mission dédiée à Meta
-                </span>
-
-                <ul>
-                    <li>
-                        Contribution à une mission internationale
-                        dans un environnement orienté technologie
-                        et services numériques.
-                    </li>
-                    <li>
-                        Développement de mon adaptabilité et de ma
-                        capacité à travailler efficacement dans un
-                        environnement multiculturel.
-                    </li>
-                </ul>
-
-            </div>
-
-            <div class="experience-arrow">
-                <i data-lucide="arrow-up-right"></i>
-            </div>
-
-        </article>
+            </article>
 
 
-        <!-- SEPUR -->
+            <article class="experience-item">
 
-        <article class="experience-item">
+                <div>
+                    <span class="experience-date">
+                        Étés 2022 — 2026
+                    </span>
 
-            <div class="experience-meta">
+                    <h3>Agent de collecte</h3>
 
-                <span class="experience-date">
-                    ÉTÉS 2022 — 2026
-                </span>
-
-                <span class="experience-location">
-                    <i data-lucide="map-pin"></i>
-                    Île-de-France
-                </span>
-
-            </div>
-
-            <div class="experience-main">
-
-                <div class="experience-company">
-                    SEPUR
+                    <p>
+                        SEPUR · Intérim
+                    </p>
                 </div>
 
-                <h3>
-                    Agent de collecte
-                </h3>
+                <span class="experience-arrow">↗</span>
 
-                <span class="experience-client">
-                    Intérim
-                </span>
-
-                <ul>
-                    <li>
-                        Participation aux opérations de collecte
-                        des déchets dans le respect des contraintes
-                        de sécurité et des délais.
-                    </li>
-                    <li>
-                        Expérience formatrice en matière de rigueur,
-                        d'endurance et de travail en équipe sur le terrain.
-                    </li>
-                </ul>
-
-            </div>
-
-            <div class="experience-arrow">
-                <i data-lucide="arrow-up-right"></i>
-            </div>
-
-        </article>
+            </article>
 
 
-        <!-- TUTEUR -->
+            <article class="experience-item">
 
-        <article class="experience-item">
+                <div>
+                    <span class="experience-date">
+                        2023 — 2026
+                    </span>
 
-            <div class="experience-meta">
+                    <h3>Tuteur en mathématiques</h3>
 
-                <span class="experience-date">
-                    2023 — 2026
-                </span>
-
-                <span class="experience-location">
-                    <i data-lucide="map-pin"></i>
-                    Île-de-France
-                </span>
-
-            </div>
-
-            <div class="experience-main">
-
-                <div class="experience-company">
-                    Parkours
+                    <p>
+                        Parkours
+                    </p>
                 </div>
 
-                <h3>
-                    Tuteur en mathématiques
-                </h3>
+                <span class="experience-arrow">↗</span>
 
-                <ul>
-                    <li>
-                        Accompagnement d'élèves dans leur progression
-                        en mathématiques et adaptation des explications
-                        à leur niveau.
-                    </li>
-                    <li>
-                        Développement de mes capacités pédagogiques,
-                        de communication et de vulgarisation.
-                    </li>
-                </ul>
-
-            </div>
-
-            <div class="experience-arrow">
-                <i data-lucide="arrow-up-right"></i>
-            </div>
-
-        </article>
+            </article>
 
 
-    </div>
+            <article class="experience-item">
 
-</section>
+                <div>
+                    <span class="experience-date">
+                        2023 — 2025
+                    </span>
+
+                    <h3>Livreur de repas</h3>
+
+                    <p>
+                        Livraison
+                    </p>
+                </div>
+
+                <span class="experience-arrow">↗</span>
+
+            </article>
 
 
-<!-- ================= PROJECTS ================= -->
-
-<section id="projects" class="section reveal">
-
-    <div class="section-heading">
-
-        <div class="heading-symbol">
-            <i data-lucide="folder-kanban"></i>
         </div>
 
-        <div>
-            <span class="section-label">SELECTED WORK</span>
+    </section>
+
+
+    <!-- PROJECTS -->
+
+    <section id="projects" class="section">
+
+        <div class="section-heading">
             <h2>Projects</h2>
         </div>
 
-    </div>
+        <div class="projects-grid">
 
 
-    <div class="projects-list">
+            <!-- MÉMOIRE -->
 
+            <article class="project-card">
 
-        <!-- MEMOIRE -->
-
-        <article class="project-card">
-
-            <div class="project-number">
-                01
-            </div>
-
-            <div class="project-content">
-
-                <div class="project-meta">
-                    JAN — JUN 2026 · RESEARCH
+                <div class="project-top">
+                    <span>Jan. — Juin 2026</span>
+                    <span class="project-arrow">↗</span>
                 </div>
 
-                <h3>
-                    Théorie de la mesure des risques
-                </h3>
+                <div class="project-info">
 
-                <p>
-                    Mémoire de fin de Master 1 consacré à l'étude
-                    théorique des mesures de risque et de leurs
-                    propriétés dans un cadre probabiliste et financier.
-                </p>
+                    <h3>
+                        Théorie de la mesure des risques
+                    </h3>
 
-                <div class="tags">
-                    <span>Risk</span>
-                    <span>Probability</span>
-                    <span>Finance</span>
-                    <span>Programming</span>
+                    <p>
+                        Mémoire de fin de Master 1 consacré à la
+                        théorie de la mesure des risques.
+                    </p>
+
+                    <div class="tags">
+                        <span>Risk</span>
+                        <span>Probability</span>
+                        <span>Finance</span>
+                        <span>Programmation</span>
+                    </div>
+
                 </div>
 
-            </div>
-
-            <div class="project-arrow">
-                <i data-lucide="arrow-up-right"></i>
-            </div>
-
-        </article>
+            </article>
 
 
-        <!-- KPMG -->
+            <!-- KPMG -->
 
-        <article class="project-card">
+            <article class="project-card">
 
-            <div class="project-number">
-                02
-            </div>
-
-            <div class="project-content">
-
-                <div class="project-meta">
-                    OCT — DEC 2025 · CONSULTING
+                <div class="project-top">
+                    <span>Oct. — Déc. 2025</span>
+                    <span class="project-arrow">↗</span>
                 </div>
 
-                <h3>
-                    Projet KPMG
-                </h3>
+                <div class="project-info">
 
-                <p>
-                    Travail réalisé en équipe autour d'une problématique
-                    de conseil, avec conception d'une réponse collective
-                    et restitution finale devant des consultants KPMG.
-                </p>
+                    <h3>
+                        KPMG
+                    </h3>
 
-                <div class="tags">
-                    <span>Consulting</span>
-                    <span>Teamwork</span>
-                    <span>AI</span>
-                    <span>Presentation</span>
+                    <p>
+                        Projet réalisé en équipe autour d'une
+                        problématique de conseil, avec construction
+                        d'une réponse structurée et présentation
+                        devant des consultants KPMG.
+                    </p>
+
+                    <div class="tags">
+                        <span>Consulting</span>
+                        <span>Data</span>
+                        <span>Strategy</span>
+                        <span>IA</span>
+                    </div>
+
                 </div>
 
-            </div>
-
-            <div class="project-arrow">
-                <i data-lucide="arrow-up-right"></i>
-            </div>
-
-        </article>
-
-    </div>
-
-</section>
+            </article>
 
 
-<!-- ================= SKILLS ================= -->
-
-<section id="skills" class="section reveal">
-
-    <div class="section-heading">
-
-        <div class="heading-symbol">
-            <i data-lucide="layers-3"></i>
         </div>
 
-        <div>
-            <span class="section-label">EXPERTISE</span>
+    </section>
+
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="section">
+
+        <div class="section-heading">
             <h2>Skills</h2>
         </div>
 
-    </div>
+        <div class="skills-grid">
 
 
-    <div class="skills-row">
+            <div class="skill-category">
 
+                <h3>
+                    Programming
+                </h3>
 
-        <div class="skill-category">
-
-            <div class="skill-icon">
-                <i data-lucide="code-2"></i>
-            </div>
-
-            <h3>Programming</h3>
-
-            <div class="skill-list">
-                <span>Python</span>
-                <span>SQL</span>
-                <span>C</span>
-                <span>R</span>
-                <span>Shell</span>
-            </div>
-
-        </div>
-
-
-        <div class="skill-category">
-
-            <div class="skill-icon">
-                <i data-lucide="award"></i>
-            </div>
-
-            <h3>Certifications</h3>
-
-            <div class="skill-list">
-                <span>AMF <small>2026</small></span>
-                <span>Bloomberg Market Concepts <small>2026</small></span>
-            </div>
-
-        </div>
-
-
-        <div class="skill-category">
-
-            <div class="skill-icon">
-                <i data-lucide="languages"></i>
-            </div>
-
-            <h3>Languages</h3>
-
-            <div class="language-list">
-
-                <div>
-                    <span>French</span>
-                    <strong>Native</strong>
-                </div>
-
-                <div>
-                    <span>Darija</span>
-                    <strong>Native</strong>
-                </div>
-
-                <div>
-                    <span>English</span>
-                    <strong>Fluent</strong>
-                </div>
-
-                <div>
-                    <span>German</span>
-                    <strong>Intermediate</strong>
+                <div class="tags">
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>C</span>
+                    <span>R</span>
+                    <span>Shell</span>
                 </div>
 
             </div>
 
+
+            <div class="skill-category">
+
+                <h3>
+                    Certifications
+                </h3>
+
+                <div class="tags">
+                    <span>AMF · 2026</span>
+                    <span>Bloomberg Market Concepts · 2026</span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-category">
+
+                <h3>
+                    Languages
+                </h3>
+
+                <div class="language-list">
+
+                    <div>
+                        <span>French</span>
+                        <strong>Native</strong>
+                    </div>
+
+                    <div>
+                        <span>English</span>
+                        <strong>Fluent</strong>
+                    </div>
+
+                    <div>
+                        <span>Darija</span>
+                        <strong>Native</strong>
+                    </div>
+
+                    <div>
+                        <span>German</span>
+                        <strong>Basic</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
         </div>
 
-    </div>
-
-</section>
+    </section>
 
 
-<!-- ================= ENGAGEMENT ================= -->
+    <!-- ENGAGEMENT -->
 
-<section id="engagement" class="section reveal">
+    <section id="engagement" class="section">
 
-    <div class="section-heading">
-
-        <div class="heading-symbol">
-            <i data-lucide="heart-handshake"></i>
-        </div>
-
-        <div>
-            <span class="section-label">COMMITMENT</span>
+        <div class="section-heading">
             <h2>Engagement</h2>
         </div>
 
-    </div>
+
+        <div class="engagement-list">
 
 
-    <div class="engagement-list">
+            <!-- PLUS RÉCENT -->
 
+            <article class="engagement-item">
 
-        <!-- SERVICE CIVIQUE -->
+                <div class="engagement-date">
+                    2026 — Present
+                </div>
 
-        <article class="engagement-item">
-
-            <div class="engagement-icon">
-                <i data-lucide="users"></i>
-            </div>
-
-            <div class="engagement-date">
-                2024
-            </div>
-
-            <div class="engagement-content">
-
-                <h3>
-                    Service Civique
-                </h3>
-
-                <p>
-                    Mairie des Mureaux
-                </p>
-
-                <ul>
-                    <li>
-                        Participation à des actions collectives
-                        et à des projets destinés aux jeunes.
-                    </li>
-                    <li>
-                        Développement du sens des responsabilités
-                        et de mon engagement au service du collectif.
-                    </li>
-                </ul>
-
-            </div>
-
-        </article>
-
-
-        <!-- FACE A FACE -->
-
-        <article class="engagement-item">
-
-            <div class="engagement-icon">
-                <i data-lucide="hand-heart"></i>
-            </div>
-
-            <div class="engagement-date">
-                2026 — Present
-            </div>
-
-            <div class="engagement-content">
-
-                <div class="engagement-title-row">
+                <div>
 
                     <h3>
-                        Créateur & Président
+                        Créateur & Président — Face à Face
                     </h3>
 
+                    <p>
+                        Association solidaire
+                    </p>
+
                     <span>
-                        Face à Face · Association solidaire
+                        Création et développement d'une association
+                        engagée auprès des personnes sans domicile.
                     </span>
 
                 </div>
 
-                <ul>
-                    <li>
-                        Création et développement d'une association
-                        engagée auprès des personnes sans domicile.
-                    </li>
-                    <li>
-                        Coordination de projets solidaires, mobilisation
-                        de bénévoles et organisation d'actions de terrain.
-                    </li>
-                </ul>
-
-            </div>
-
-        </article>
-
-    </div>
-
-</section>
+            </article>
 
 
-<!-- ================= SPORTS ================= -->
+            <article class="engagement-item">
 
-<section id="sports" class="section reveal">
+                <div class="engagement-date">
+                    2024
+                </div>
 
-    <div class="section-heading">
+                <div>
 
-        <div class="heading-symbol">
-            <i data-lucide="trophy"></i>
+                    <h3>
+                        Service Civique
+                    </h3>
+
+                    <p>
+                        Mairie des Mureaux
+                    </p>
+
+                    <span>
+                        Participation à des actions destinées aux jeunes
+                        et implication dans des projets collectifs.
+                    </span>
+
+                </div>
+
+            </article>
+
+
         </div>
 
-        <div>
-            <span class="section-label">BEYOND ACADEMICS</span>
+    </section>
+
+
+    <!-- SPORTS -->
+
+    <section id="sports" class="section">
+
+        <div class="section-heading">
             <h2>Sports</h2>
         </div>
 
-    </div>
+
+        <div class="sports-grid">
 
 
-    <div class="sports-grid">
+            <div class="sport-item">
 
+                <div class="sport-icon">
+                    <i class="fa-solid fa-futbol"></i>
+                </div>
 
-        <article class="sport-item">
+                <h3>
+                    Football
+                </h3>
 
-            <div class="sport-icon">
-                ⚽
+                <p>
+                    Plus de 12 ans de pratique, dont plusieurs
+                    saisons à haut niveau. Une expérience qui m'a
+                    appris la discipline, la persévérance et
+                    l'importance du collectif.
+                </p>
+
             </div>
 
-            <h3>Football</h3>
 
-            <p>
-                Plus de 12 ans de pratique, dont plusieurs saisons
-                à haut niveau. Une expérience qui a fortement
-                développé mon esprit d'équipe et ma persévérance.
-            </p>
+            <div class="sport-item">
 
-            <span class="sport-line"></span>
+                <div class="sport-icon">
+                    <i class="fa-solid fa-person-swimming"></i>
+                </div>
 
-        </article>
+                <h3>
+                    Triathlon
+                </h3>
 
+                <p>
+                    Pratique combinant natation, cyclisme et course,
+                    développant endurance, régularité et gestion
+                    de l'effort.
+                </p>
 
-        <article class="sport-item">
-
-            <div class="sport-icon">
-                ◇
             </div>
 
-            <h3>Triathlon</h3>
 
-            <p>
-                Une pratique tournée vers l'endurance, la régularité
-                et la capacité à maintenir un effort dans la durée.
-            </p>
+            <div class="sport-item">
 
-            <span class="sport-line"></span>
+                <div class="sport-icon">
+                    <i class="fa-solid fa-people-arrows"></i>
+                </div>
 
-        </article>
+                <h3>
+                    Jiu-jitsu brésilien
+                </h3>
 
+                <p>
+                    Discipline fondée sur la technique, le contrôle
+                    et l'adaptation, avec un fort accent sur la
+                    maîtrise de soi et la persévérance.
+                </p>
 
-        <article class="sport-item">
-
-            <div class="sport-icon">
-                🥋
             </div>
 
-            <h3>Jiu-jitsu brésilien</h3>
 
-            <p>
-                Une discipline qui associe technique, maîtrise de soi,
-                adaptation et persévérance.
-            </p>
+        </div>
 
-            <span class="sport-line"></span>
-
-        </article>
-
-    </div>
-
-</section>
+    </section>
 
 
-<!-- ================= CONTACT ================= -->
+    <!-- CONTACT -->
 
-<section id="contact" class="section contact-section reveal">
+    <section id="contact" class="section contact-section">
 
-    <div class="contact-inner">
+        <div class="contact-main">
 
-        <div class="contact-heading">
+            <div class="contact-title">
 
-            <div class="heading-symbol">
-                <i data-lucide="send"></i>
+                <h2>
+                    Contact
+                </h2>
+
             </div>
 
-            <div>
-                <span class="section-label">GET IN TOUCH</span>
-                <h2>Contact</h2>
+
+            <div class="contact-links">
+
+
+                <a
+                    href="mailto:zakarya.slm@gmail.com"
+                    class="contact-link"
+                >
+
+                    <div>
+
+                        <span>
+                            <i class="fa-regular fa-envelope"></i>
+                            Email
+                        </span>
+
+                        <strong>
+                            zakarya.slm@gmail.com
+                        </strong>
+
+                    </div>
+
+                    <span class="contact-arrow">
+                        ↗
+                    </span>
+
+                </a>
+
+
+                <a
+                    href="https://www.linkedin.com/in/zakarya-sellami/"
+                    target="_blank"
+                    class="contact-link"
+                >
+
+                    <div>
+
+                        <span>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            LinkedIn
+                        </span>
+
+                        <strong>
+                            zakarya-sellami
+                        </strong>
+
+                    </div>
+
+                    <span class="contact-arrow">
+                        ↗
+                    </span>
+
+                </a>
+
+
+                <a
+                    href="https://github.com/zakaryaslm"
+                    target="_blank"
+                    class="contact-link"
+                >
+
+                    <div>
+
+                        <span>
+                            <i class="fa-brands fa-github"></i>
+                            GitHub
+                        </span>
+
+                        <strong>
+                            zakaryaslm
+                        </strong>
+
+                    </div>
+
+                    <span class="contact-arrow">
+                        ↗
+                    </span>
+
+                </a>
+
+
             </div>
 
         </div>
 
-
-        <div class="contact-links">
-
-
-            <a href="mailto:zakarya.slm@gmail.com"
-               class="contact-link">
-
-                <div class="contact-link-icon">
-                    <i data-lucide="mail"></i>
-                </div>
-
-                <div class="contact-link-info">
-                    <span>Email</span>
-                    <strong>zakarya.slm@gmail.com</strong>
-                </div>
-
-                <i data-lucide="arrow-up-right"
-                   class="contact-arrow"></i>
-
-            </a>
-
-
-            <a href="https://www.linkedin.com/in/zakarya-sellami/"
-               target="_blank"
-               class="contact-link">
-
-                <div class="contact-link-icon">
-                    <i data-lucide="linkedin"></i>
-                </div>
-
-                <div class="contact-link-info">
-                    <span>LinkedIn</span>
-                    <strong>zakarya-sellami</strong>
-                </div>
-
-                <i data-lucide="arrow-up-right"
-                   class="contact-arrow"></i>
-
-            </a>
-
-
-            <a href="https://github.com/zakaryaslm"
-               target="_blank"
-               class="contact-link">
-
-                <div class="contact-link-icon">
-                    <i data-lucide="github"></i>
-                </div>
-
-                <div class="contact-link-info">
-                    <span>GitHub</span>
-                    <strong>zakaryaslm</strong>
-                </div>
-
-                <i data-lucide="arrow-up-right"
-                   class="contact-arrow"></i>
-
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
+    </section>
 
 </main>
 
 
 <footer>
-
-    <div class="footer-line"></div>
-
-    <p>
-        © 2026 Zakarya Sellami
-    </p>
-
+    <p>© 2026 Zakarya Sellami</p>
 </footer>
 
 
-<script>
-
-    /* Lucide */
-    lucide.createIcons();
-
-
-    /* ================= SCROLL REVEAL ================= */
-
-    const revealElements = document.querySelectorAll(".reveal");
-
-    const revealObserver = new IntersectionObserver(
-        (entries) => {
-
-            entries.forEach(entry => {
-
-                if (entry.isIntersecting) {
-                    entry.target.classList.add("visible");
-                }
-
-            });
-
-        },
-        {
-            threshold: 0.12
-        }
-    );
-
-    revealElements.forEach(element => {
-        revealObserver.observe(element);
-    });
-
-
-    /* ================= ACTIVE NAV ================= */
-
-    const sections = document.querySelectorAll("section[id]");
-    const navLinks = document.querySelectorAll(".navbar nav a");
-
-    const sectionObserver = new IntersectionObserver(
-        (entries) => {
-
-            entries.forEach(entry => {
-
-                if (entry.isIntersecting) {
-
-                    navLinks.forEach(link => {
-                        link.classList.remove("active");
-                    });
-
-                    const activeLink =
-                        document.querySelector(
-                            `.navbar nav a[href="#${entry.target.id}"]`
-                        );
-
-                    if (activeLink) {
-                        activeLink.classList.add("active");
-                    }
-
-                }
-
-            });
-
-        },
-        {
-            threshold: 0.35
-        }
-    );
-
-    sections.forEach(section => {
-        sectionObserver.observe(section);
-    });
-
-
-    /* ================= NAVBAR ON SCROLL ================= */
-
-    const navbar = document.querySelector(".navbar");
-
-    window.addEventListener("scroll", () => {
-
-        if (window.scrollY > 40) {
-            navbar.classList.add("scrolled");
-        } else {
-            navbar.classList.remove("scrolled");
-        }
-
-    });
-
-</script>
-
 </body>
+
 </html>
+```
