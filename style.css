@@ -14,8 +14,8 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #EEF2F3;
-    color: #17211F;
+    background: #EAF4F8;
+    color: #172A33;
     line-height: 1.7;
     overflow-x: hidden;
 }
@@ -27,7 +27,7 @@ a {
 
 ::selection {
     background: #68c49b;
-    color: #17231f;
+    color: #172A33;
 }
 
 
@@ -42,9 +42,9 @@ a {
     width: 100%;
     z-index: 1000;
     padding: 24px 8%;
-    background: rgba(238, 242, 243, 0.92);
+    background: rgba(224, 239, 245, 0.94);
     backdrop-filter: blur(14px);
-    border-bottom: 1px solid rgba(23, 33, 31, 0.08);
+    border-bottom: 1px solid rgba(23, 42, 51, 0.08);
 }
 
 .navbar nav {
@@ -56,7 +56,7 @@ a {
 
 .navbar a {
     position: relative;
-    color: #52615C;
+    color: #52656D;
     font-size: 0.82rem;
     transition:
         color 0.25s ease;
@@ -75,7 +75,7 @@ a {
 }
 
 .navbar a:hover {
-    color: #17211F;
+    color: #172A33;
 }
 
 .navbar a:hover::after {
@@ -147,7 +147,7 @@ a {
 }
 
 .hero h1 {
-    color: #17211F;
+    color: #172A33;
     font-size: clamp(4.5rem, 9vw, 8rem);
     line-height: 0.91;
     font-weight: 500;
@@ -156,13 +156,13 @@ a {
 }
 
 .hero-subtitle {
-    color: #3F4D48;
+    color: #3F5660;
     font-size: 1.18rem;
     margin-bottom: 3px;
 }
 
 .hero-school {
-    color: #71807A;
+    color: #71858D;
     font-size: 0.95rem;
 }
 
@@ -173,7 +173,7 @@ a {
 }
 
 .hero-link {
-    color: #52615C;
+    color: #52656D;
     font-size: 0.78rem;
     padding-bottom: 7px;
     border-bottom: 1px solid rgba(104, 196, 155, 0.35);
@@ -201,7 +201,7 @@ a {
     display: flex;
     align-items: center;
     gap: 13px;
-    color: #71807A;
+    color: #71858D;
     font-size: 0.67rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -221,7 +221,7 @@ a {
 .section {
     position: relative;
     padding: 110px 10%;
-    border-top: 1px solid rgba(23, 33, 31, 0.08);
+    border-top: 1px solid rgba(23, 42, 51, 0.08);
 }
 
 .section::before {
@@ -242,7 +242,7 @@ a {
 }
 
 .section-heading h2 {
-    color: #17211F;
+    color: #172A33;
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: -0.025em;
@@ -279,7 +279,7 @@ a {
 }
 
 .about-content p {
-    color: #5F6B68;
+    color: #52656D;
     font-size: 0.96rem;
     line-height: 1.95;
     margin-bottom: 23px;
@@ -303,7 +303,7 @@ a {
     grid-template-columns: 135px 1px minmax(0, 1fr);
     column-gap: 28px;
     padding: 32px 0;
-    border-bottom: 1px solid rgba(23, 33, 31, 0.08);
+    border-bottom: 1px solid rgba(23, 42, 51, 0.08);
     transition:
         padding-left 0.25s ease;
 }
@@ -355,20 +355,20 @@ a {
 }
 
 .education-content h3 {
-    color: #17211F;
+    color: #172A33;
     font-size: 1.18rem;
     font-weight: 500;
     margin-bottom: 3px;
 }
 
 .education-content p {
-    color: #52615C;
+    color: #52656D;
     font-size: 0.9rem;
     margin-bottom: 5px;
 }
 
 .education-content span {
-    color: #71807A;
+    color: #71858D;
     font-size: 0.78rem;
 }
 
@@ -386,7 +386,7 @@ a {
     grid-template-columns: minmax(0, 1fr) 25px;
     gap: 35px;
     padding: 36px 0;
-    border-bottom: 1px solid rgba(23, 33, 31, 0.08);
+    border-bottom: 1px solid rgba(23, 42, 51, 0.08);
     transition:
         padding-left 0.25s ease;
 }
@@ -412,7 +412,7 @@ a {
 }
 
 .experience-location {
-    color: #71807A;
+    color: #71858D;
     font-size: 0.76rem;
 }
 
@@ -421,14 +421,14 @@ a {
 }
 
 .experience-main h3 {
-    color: #17211F;
+    color: #172A33;
     font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 2px;
 }
 
 .experience-main .company {
-    color: #52615C;
+    color: #52656D;
     font-size: 0.86rem;
     margin-bottom: 14px;
 }
@@ -439,7 +439,7 @@ a {
 }
 
 .experience-main li {
-    color: #5F6B68;
+    color: #52656D;
     font-size: 0.86rem;
     line-height: 1.75;
     margin-bottom: 5px;
@@ -475,7 +475,7 @@ a {
 
 .project-card {
     padding-bottom: 38px;
-    border-bottom: 1px solid rgba(23, 33, 31, 0.08);
+    border-bottom: 1px solid rgba(23, 42, 51, 0.08);
     transition:
         transform 0.25s ease;
 }
@@ -509,14 +509,14 @@ a {
 }
 
 .project-info h3 {
-    color: #17211F;
+    color: #172A33;
     font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
 .project-info p {
-    color: #5F6B68;
+    color: #52656D;
     font-size: 0.86rem;
     line-height: 1.8;
     margin-bottom: 17px;
@@ -529,10 +529,10 @@ a {
 }
 
 .tags span {
-    color: #71807A;
+    color: #71858D;
     font-size: 0.68rem;
     padding: 5px 9px;
-    border: 1px solid rgba(23, 33, 31, 0.12);
+    border: 1px solid rgba(23, 42, 51, 0.12);
     border-radius: 3px;
     transition:
         color 0.2s ease,
@@ -567,7 +567,7 @@ a {
     align-items: center;
     gap: 13px;
     padding-bottom: 16px;
-    border-bottom: 1px solid rgba(23, 33, 31, 0.12);
+    border-bottom: 1px solid rgba(23, 42, 51, 0.12);
     margin-bottom: 3px;
 }
 
@@ -577,7 +577,7 @@ a {
 }
 
 .skill-header h3 {
-    color: #17211F;
+    color: #172A33;
     font-size: 0.98rem;
     font-weight: 500;
 }
@@ -588,12 +588,12 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 11px 0;
-    border-bottom: 1px solid rgba(23, 33, 31, 0.06);
+    border-bottom: 1px solid rgba(23, 42, 51, 0.06);
 }
 
 .skill-details span,
 .language-details span {
-    color: #5F6B68;
+    color: #52656D;
     font-size: 0.82rem;
 }
 
@@ -615,11 +615,11 @@ a {
     gap: 10px 25px;
     margin-top: 50px;
     padding-top: 22px;
-    border-top: 1px solid rgba(23, 33, 31, 0.08);
+    border-top: 1px solid rgba(23, 42, 51, 0.08);
 }
 
 .certifications span {
-    color: #71807A;
+    color: #71858D;
     font-size: 0.74rem;
 }
 
@@ -644,7 +644,7 @@ a {
 
 .engagement-item {
     padding-bottom: 38px;
-    border-bottom: 1px solid rgba(23, 33, 31, 0.08);
+    border-bottom: 1px solid rgba(23, 42, 51, 0.08);
     transition:
         transform 0.25s ease;
 }
@@ -672,14 +672,14 @@ a {
 }
 
 .engagement-content h3 {
-    color: #17211F;
+    color: #172A33;
     font-size: 1.12rem;
     font-weight: 500;
     margin-bottom: 3px;
 }
 
 .engagement-content .company {
-    color: #52615C;
+    color: #52656D;
     font-size: 0.82rem;
     margin-bottom: 12px;
 }
@@ -689,7 +689,7 @@ a {
 }
 
 .engagement-content li {
-    color: #5F6B68;
+    color: #52656D;
     font-size: 0.82rem;
     line-height: 1.75;
     margin-bottom: 5px;
@@ -715,7 +715,7 @@ a {
     display: flex;
     gap: 16px;
     padding-bottom: 28px;
-    border-bottom: 1px solid rgba(23, 33, 31, 0.08);
+    border-bottom: 1px solid rgba(23, 42, 51, 0.08);
     transition:
         transform 0.25s ease,
         border-color 0.25s ease;
@@ -740,14 +740,14 @@ a {
 }
 
 .sport-item h3 {
-    color: #17211F;
+    color: #172A33;
     font-size: 1rem;
     font-weight: 500;
     margin-bottom: 5px;
 }
 
 .sport-item p {
-    color: #71807A;
+    color: #71858D;
     font-size: 0.79rem;
     line-height: 1.75;
 }
@@ -767,14 +767,14 @@ a {
     align-items: center;
     gap: 16px;
     padding: 21px 0;
-    border-bottom: 1px solid rgba(23, 33, 31, 0.08);
+    border-bottom: 1px solid rgba(23, 42, 51, 0.08);
     transition:
         padding-left 0.25s ease,
         border-color 0.25s ease;
 }
 
 .contact-item:first-child {
-    border-top: 1px solid rgba(23, 33, 31, 0.08);
+    border-top: 1px solid rgba(23, 42, 51, 0.08);
 }
 
 .contact-item:hover {
@@ -800,14 +800,14 @@ a {
 }
 
 .contact-content > span {
-    color: #71807A;
+    color: #71858D;
     font-size: 0.65rem;
     text-transform: uppercase;
     letter-spacing: 0.09em;
 }
 
 .contact-content strong {
-    color: #17211F;
+    color: #172A33;
     font-size: 0.86rem;
     font-weight: 400;
 }
@@ -829,9 +829,9 @@ a {
 
 footer {
     padding: 38px 10%;
-    border-top: 1px solid rgba(23, 33, 31, 0.07);
+    border-top: 1px solid rgba(23, 42, 51, 0.07);
     text-align: center;
-    color: #71807A;
+    color: #71858D;
     font-size: 0.68rem;
 }
 
