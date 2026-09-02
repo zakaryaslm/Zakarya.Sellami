@@ -14,7 +14,7 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #DCEFF7;
+    background: red!important;
     color: #172A33;
     line-height: 1.7;
     overflow-x: hidden;
