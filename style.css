@@ -14,7 +14,7 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #EAF4F8;
+    background: #DCEFF7;
     color: #172A33;
     line-height: 1.7;
     overflow-x: hidden;
@@ -42,7 +42,7 @@ a {
     width: 100%;
     z-index: 1000;
     padding: 24px 8%;
-    background: rgba(224, 239, 245, 0.94);
+    background: rgba(210, 233, 243, 0.95);
     backdrop-filter: blur(14px);
     border-bottom: 1px solid rgba(23, 42, 51, 0.08);
 }
@@ -605,7 +605,9 @@ a {
 }
 
 
-/* CERTIFICATIONS */
+/* =====================================================
+   CERTIFICATIONS
+===================================================== */
 
 .certifications {
     max-width: 1100px;
