@@ -27,7 +27,7 @@ a {
 
 ::selection {
     background: #1D3557;
-    color: #FFFFFF;
+    color: #F8F9FA;
 }
 
 
@@ -58,7 +58,8 @@ a {
     position: relative;
     color: #5E6670;
     font-size: 0.82rem;
-    transition: color 0.25s ease;
+    transition:
+        color 0.25s ease;
 }
 
 .navbar a::after {
@@ -69,7 +70,8 @@ a {
     width: 0;
     height: 1px;
     background: #1D3557;
-    transition: width 0.25s ease;
+    transition:
+        width 0.25s ease;
 }
 
 .navbar a:hover {
@@ -101,7 +103,7 @@ a {
     top: 18%;
     width: 520px;
     height: 520px;
-    border: 1px solid rgba(29, 53, 87, 0.10);
+    border: 1px solid rgba(29, 53, 87, 0.12);
     border-radius: 50%;
     box-shadow:
         0 0 0 80px rgba(29, 53, 87, 0.025),
@@ -125,11 +127,11 @@ a {
     content: "";
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
     bottom: 0;
     width: 115px;
     height: 2px;
     background: #1D3557;
+    transform: translateX(-50%);
 }
 
 .hero-content {
@@ -178,7 +180,7 @@ a {
     color: #5E6670;
     font-size: 0.78rem;
     padding-bottom: 7px;
-    border-bottom: 1px solid rgba(29, 53, 87, 0.28);
+    border-bottom: 1px solid rgba(29, 53, 87, 0.35);
     transition:
         color 0.25s ease,
         transform 0.25s ease,
@@ -199,7 +201,6 @@ a {
 .scroll-indicator {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
     bottom: 40px;
     display: flex;
     align-items: center;
@@ -208,6 +209,7 @@ a {
     font-size: 0.67rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
+    transform: translateX(-50%);
 }
 
 .scroll-line {
@@ -259,9 +261,9 @@ a {
     height: 31px;
     color: #1D3557;
     font-size: 0.68rem;
-    border: 1px solid rgba(29, 53, 87, 0.25);
+    border: 1px solid rgba(29, 53, 87, 0.30);
     border-radius: 5px;
-    background: rgba(29, 53, 87, 0.04);
+    background: rgba(29, 53, 87, 0.06);
     transition:
         transform 0.25s ease,
         background 0.25s ease;
@@ -269,7 +271,7 @@ a {
 
 .section-heading:hover .section-symbol {
     transform: translateY(-2px) rotate(-3deg);
-    background: rgba(29, 53, 87, 0.08);
+    background: rgba(29, 53, 87, 0.12);
 }
 
 
@@ -307,7 +309,8 @@ a {
     column-gap: 28px;
     padding: 32px 0;
     border-bottom: 1px solid rgba(20, 33, 61, 0.08);
-    transition: padding-left 0.25s ease;
+    transition:
+        padding-left 0.25s ease;
 }
 
 .education-item:first-child {
@@ -328,7 +331,7 @@ a {
 .education-line {
     position: relative;
     width: 1px;
-    background: rgba(29, 53, 87, 0.25);
+    background: rgba(29, 53, 87, 0.32);
 }
 
 .education-line::before {
@@ -341,7 +344,7 @@ a {
     border-radius: 50%;
     background: #1D3557;
     box-shadow:
-        0 0 0 4px rgba(29, 53, 87, 0.06);
+        0 0 0 4px rgba(29, 53, 87, 0.08);
 }
 
 .education-content {
@@ -352,7 +355,7 @@ a {
     position: absolute;
     right: 5px;
     top: 0;
-    color: rgba(29, 53, 87, 0.28);
+    color: rgba(29, 53, 87, 0.30);
     font-size: 0.65rem;
 }
 
@@ -389,7 +392,8 @@ a {
     gap: 35px;
     padding: 36px 0;
     border-bottom: 1px solid rgba(20, 33, 61, 0.08);
-    transition: padding-left 0.25s ease;
+    transition:
+        padding-left 0.25s ease;
 }
 
 .experience-item:first-child {
@@ -454,7 +458,8 @@ a {
     color: #1D3557;
     font-size: 0.9rem;
     padding-top: 5px;
-    transition: transform 0.25s ease;
+    transition:
+        transform 0.25s ease;
 }
 
 .experience-item:hover .experience-arrow {
@@ -476,7 +481,8 @@ a {
 .project-card {
     padding-bottom: 38px;
     border-bottom: 1px solid rgba(20, 33, 61, 0.08);
-    transition: transform 0.25s ease;
+    transition:
+        transform 0.25s ease;
 }
 
 .project-card:hover {
@@ -493,7 +499,8 @@ a {
 }
 
 .project-arrow {
-    transition: transform 0.25s ease;
+    transition:
+        transform 0.25s ease;
 }
 
 .project-card:hover .project-arrow {
@@ -540,8 +547,8 @@ a {
 
 .tags span:hover {
     color: #1D3557;
-    border-color: rgba(29, 53, 87, 0.30);
-    background: rgba(29, 53, 87, 0.04);
+    border-color: rgba(29, 53, 87, 0.35);
+    background: rgba(29, 53, 87, 0.06);
 }
 
 
@@ -645,7 +652,8 @@ a {
 .engagement-item {
     padding-bottom: 38px;
     border-bottom: 1px solid rgba(20, 33, 61, 0.08);
-    transition: transform 0.25s ease;
+    transition:
+        transform 0.25s ease;
 }
 
 .engagement-item:hover {
@@ -722,7 +730,7 @@ a {
 
 .sport-item:hover {
     transform: translateY(-5px);
-    border-color: rgba(29, 53, 87, 0.30);
+    border-color: rgba(29, 53, 87, 0.35);
 }
 
 .sport-icon {
@@ -730,7 +738,8 @@ a {
     color: #1D3557;
     font-size: 1rem;
     padding-top: 3px;
-    transition: transform 0.25s ease;
+    transition:
+        transform 0.25s ease;
 }
 
 .sport-item:hover .sport-icon {
@@ -777,7 +786,7 @@ a {
 
 .contact-item:hover {
     padding-left: 9px;
-    border-color: rgba(29, 53, 87, 0.25);
+    border-color: rgba(29, 53, 87, 0.30);
 }
 
 .contact-icon {
@@ -788,7 +797,7 @@ a {
     height: 29px;
     color: #1D3557;
     font-size: 0.78rem;
-    border: 1px solid rgba(29, 53, 87, 0.25);
+    border: 1px solid rgba(29, 53, 87, 0.28);
     border-radius: 5px;
 }
 
@@ -812,7 +821,8 @@ a {
 
 .contact-arrow {
     color: #1D3557;
-    transition: transform 0.25s ease;
+    transition:
+        transform 0.25s ease;
 }
 
 .contact-item:hover .contact-arrow {
@@ -853,8 +863,27 @@ footer {
         padding-right: 7%;
     }
 
-    /* Hero stays centered */
+    /* Keep hero centered */
+    .hero {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero-content {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-links {
+        justify-content: center;
+    }
+
     .hero::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .scroll-indicator {
         left: 50%;
         transform: translateX(-50%);
     }
@@ -886,7 +915,8 @@ footer {
 
     .hero {
         padding-top: 130px;
-        padding-bottom: 110px;
+        justify-content: center;
+        text-align: center;
     }
 
     .hero-content {
@@ -906,13 +936,6 @@ footer {
     .scroll-indicator {
         left: 50%;
         transform: translateX(-50%);
-        bottom: 30px;
-    }
-
-    .hero-decoration {
-        right: -280px;
-        width: 430px;
-        height: 430px;
     }
 
     .section {
