@@ -57,7 +57,7 @@ a {
 .navbar a {
     position: relative;
     color: #5E6670;
-    font-size: 0.82rem;
+    font-size: 0.88rem;
     transition:
         color 0.25s ease;
 }
@@ -143,7 +143,7 @@ a {
 
 .hero-label {
     color: #1D3557;
-    font-size: 0.78rem;
+    font-size: 0.82rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     margin-bottom: 22px;
@@ -160,13 +160,13 @@ a {
 
 .hero-subtitle {
     color: #3F4B5C;
-    font-size: 1.18rem;
+    font-size: 1.25rem;
     margin-bottom: 3px;
 }
 
 .hero-school {
     color: #89919B;
-    font-size: 0.95rem;
+    font-size: 1rem;
 }
 
 .hero-links {
@@ -178,7 +178,7 @@ a {
 
 .hero-link {
     color: #5E6670;
-    font-size: 0.78rem;
+    font-size: 0.82rem;
     padding-bottom: 7px;
     border-bottom: 1px solid rgba(29, 53, 87, 0.35);
     transition:
@@ -206,7 +206,7 @@ a {
     align-items: center;
     gap: 13px;
     color: #89919B;
-    font-size: 0.67rem;
+    font-size: 0.72rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     transform: translateX(-50%);
@@ -248,7 +248,7 @@ a {
 
 .section-heading h2 {
     color: #14213D;
-    font-size: 1.8rem;
+    font-size: 1.95rem;
     font-weight: 500;
     letter-spacing: -0.025em;
 }
@@ -285,7 +285,7 @@ a {
 
 .about-content p {
     color: #5E6670;
-    font-size: 0.96rem;
+    font-size: 1.03rem;
     line-height: 1.95;
     margin-bottom: 23px;
 }
@@ -323,7 +323,7 @@ a {
 
 .education-date {
     color: #1D3557;
-    font-size: 0.78rem;
+    font-size: 0.82rem;
     padding-top: 4px;
     white-space: nowrap;
 }
@@ -361,20 +361,20 @@ a {
 
 .education-content h3 {
     color: #14213D;
-    font-size: 1.18rem;
+    font-size: 1.22rem;
     font-weight: 500;
     margin-bottom: 3px;
 }
 
 .education-content p {
     color: #5E6670;
-    font-size: 0.9rem;
+    font-size: 0.96rem;
     margin-bottom: 5px;
 }
 
 .education-content span {
     color: #89919B;
-    font-size: 0.78rem;
+    font-size: 0.82rem;
 }
 
 
@@ -413,12 +413,12 @@ a {
 
 .experience-date {
     color: #1D3557;
-    font-size: 0.76rem;
+    font-size: 0.80rem;
 }
 
 .experience-location {
     color: #89919B;
-    font-size: 0.76rem;
+    font-size: 0.80rem;
 }
 
 .experience-location::first-letter {
@@ -427,14 +427,14 @@ a {
 
 .experience-main h3 {
     color: #14213D;
-    font-size: 1.2rem;
+    font-size: 1.24rem;
     font-weight: 500;
     margin-bottom: 2px;
 }
 
 .experience-main .company {
     color: #5E6670;
-    font-size: 0.86rem;
+    font-size: 0.92rem;
     margin-bottom: 14px;
 }
 
@@ -445,7 +445,7 @@ a {
 
 .experience-main li {
     color: #5E6670;
-    font-size: 0.86rem;
+    font-size: 0.92rem;
     line-height: 1.75;
     margin-bottom: 5px;
 }
@@ -494,7 +494,7 @@ a {
     justify-content: space-between;
     align-items: center;
     color: #1D3557;
-    font-size: 0.72rem;
+    font-size: 0.76rem;
     margin-bottom: 20px;
 }
 
@@ -515,14 +515,14 @@ a {
 
 .project-info h3 {
     color: #14213D;
-    font-size: 1.2rem;
+    font-size: 1.24rem;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
 .project-info p {
     color: #5E6670;
-    font-size: 0.86rem;
+    font-size: 0.92rem;
     line-height: 1.8;
     margin-bottom: 17px;
 }
@@ -535,7 +535,7 @@ a {
 
 .tags span {
     color: #89919B;
-    font-size: 0.68rem;
+    font-size: 0.72rem;
     padding: 5px 9px;
     border: 1px solid rgba(20, 33, 61, 0.12);
     border-radius: 3px;
@@ -583,7 +583,7 @@ a {
 
 .skill-header h3 {
     color: #14213D;
-    font-size: 0.98rem;
+    font-size: 1.03rem;
     font-weight: 500;
 }
 
@@ -599,13 +599,13 @@ a {
 .skill-details span,
 .language-details span {
     color: #5E6670;
-    font-size: 0.82rem;
+    font-size: 0.88rem;
 }
 
 .skill-details strong,
 .language-details strong {
     color: #1D3557;
-    font-size: 0.69rem;
+    font-size: 0.73rem;
     font-weight: 400;
 }
 
@@ -627,14 +627,14 @@ a {
 
 .certifications span {
     color: #89919B;
-    font-size: 0.74rem;
+    font-size: 0.79rem;
 }
 
 .certifications .certification-label {
     color: #1D3557;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    font-size: 0.65rem;
+    font-size: 0.69rem;
 }
 
 
@@ -662,7 +662,7 @@ a {
 
 .engagement-date {
     color: #1D3557;
-    font-size: 0.72rem;
+    font-size: 0.76rem;
     margin-bottom: 17px;
 }
 
@@ -680,14 +680,14 @@ a {
 
 .engagement-content h3 {
     color: #14213D;
-    font-size: 1.12rem;
+    font-size: 1.18rem;
     font-weight: 500;
     margin-bottom: 3px;
 }
 
 .engagement-content .company {
     color: #5E6670;
-    font-size: 0.82rem;
+    font-size: 0.88rem;
     margin-bottom: 12px;
 }
 
@@ -697,7 +697,7 @@ a {
 
 .engagement-content li {
     color: #5E6670;
-    font-size: 0.82rem;
+    font-size: 0.88rem;
     line-height: 1.75;
     margin-bottom: 5px;
 }
@@ -748,14 +748,14 @@ a {
 
 .sport-item h3 {
     color: #14213D;
-    font-size: 1rem;
+    font-size: 1.08rem;
     font-weight: 500;
     margin-bottom: 5px;
 }
 
 .sport-item p {
     color: #89919B;
-    font-size: 0.79rem;
+    font-size: 0.88rem;
     line-height: 1.75;
 }
 
@@ -808,14 +808,14 @@ a {
 
 .contact-content > span {
     color: #89919B;
-    font-size: 0.65rem;
+    font-size: 0.69rem;
     text-transform: uppercase;
     letter-spacing: 0.09em;
 }
 
 .contact-content strong {
     color: #14213D;
-    font-size: 0.86rem;
+    font-size: 0.92rem;
     font-weight: 400;
 }
 
@@ -839,7 +839,7 @@ footer {
     border-top: 1px solid rgba(20, 33, 61, 0.07);
     text-align: center;
     color: #89919B;
-    font-size: 0.68rem;
+    font-size: 0.72rem;
 }
 
 
