@@ -988,3 +988,204 @@ footer {
         gap: 8px;
     }
 }
+/* =========================================================
+   INTERACTIONS & ANIMATIONS
+   ========================================================= */
+
+/* ---------- Scroll reveal ---------- */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* ---------- Hero entrance ---------- */
+
+.hero-content > * {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: heroAppear 0.7s ease forwards;
+}
+
+.hero-content > *:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.hero-content > *:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.hero-content > *:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.hero-content > *:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.hero-content > *:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.hero-content > *:nth-child(6) {
+    animation-delay: 0.6s;
+}
+
+@keyframes heroAppear {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* ---------- Navigation active section ---------- */
+
+nav a {
+    position: relative;
+    transition: color 0.25s ease;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -7px;
+
+    width: 0;
+    height: 2px;
+
+    background: #1D3557;
+
+    transform: translateX(-50%);
+    transition: width 0.25s ease;
+}
+
+nav a:hover::after,
+nav a.active::after {
+    width: 100%;
+}
+
+nav a.active {
+    color: #1D3557;
+}
+
+
+/* ---------- Interactive elements ---------- */
+
+.project-card,
+.project-item,
+.experience-item,
+.education-item,
+.engagement-item,
+.sport-item,
+.skill-category {
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.project-card:hover,
+.project-item:hover,
+.experience-item:hover,
+.education-item:hover,
+.engagement-item:hover,
+.sport-item:hover,
+.skill-category:hover {
+    transform: translateY(-5px);
+}
+
+
+/* ---------- Sports ---------- */
+
+.sport-item {
+    cursor: default;
+}
+
+.sport-icon {
+    transition:
+        transform 0.3s ease;
+}
+
+.sport-item:hover .sport-icon {
+    transform: translateY(-4px) scale(1.08);
+}
+
+
+/* ---------- Skills ---------- */
+
+.skill-item,
+.skill-tag {
+    transition:
+        transform 0.2s ease,
+        background-color 0.2s ease;
+}
+
+.skill-item:hover,
+.skill-tag:hover {
+    transform: translateY(-3px);
+}
+
+
+/* ---------- Links ---------- */
+
+.project-item a,
+.project-card a,
+.contact a,
+.hero-links a {
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
+}
+
+.project-item a:hover,
+.project-card a:hover,
+.contact a:hover,
+.hero-links a:hover {
+    transform: translateY(-2px);
+}
+
+
+/* ---------- Smooth scrolling ---------- */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* ---------- Accessibility ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    .reveal {
+        opacity: 1;
+        transform: none;
+    }
+}
