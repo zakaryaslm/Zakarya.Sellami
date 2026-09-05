@@ -1189,3 +1189,29 @@ html {
         transform: none;
     }
 }
+
+/* =====================================================
+   FINAL POLISH — HERO + GITHUB CONTACT ICON
+===================================================== */
+
+/* Remove the extra decorative lines between the hero and About. */
+.hero::after {
+    display: none;
+}
+
+#about::before {
+    display: none;
+}
+
+/* Keep only a very subtle section divider. */
+#about {
+    border-top-color: rgba(20, 33, 61, 0.05);
+}
+
+/* Real GitHub mark in the Contact section. */
+.contact-icon.github-icon svg {
+    width: 15px;
+    height: 15px;
+    display: block;
+    fill: currentColor;
+}
