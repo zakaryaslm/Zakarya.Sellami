@@ -5,19 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Zakarya Sellami</title>
+    <title>Zakarya Sellami — Mathematics, Code &amp; Ideas</title>
+    <meta name="description" content="Explore Zakarya Sellami’s work in mathematics, programming and finance, alongside his education, professional experience and community projects.">
+    <meta name="theme-color" content="#14213d">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+<a class="skip-link" href="#about">Skip to content</a>
 
 <!-- =====================================================
      NAVBAR
 ===================================================== -->
 
 <header class="navbar">
-    <nav>
+    <a class="brand" href="#home" aria-label="Zakarya Sellami — home">ZS<span>.</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-navigation" hidden>Menu <span aria-hidden="true">+</span></button>
+    <nav id="main-navigation" aria-label="Main navigation">
         <a href="#about">About</a>
         <a href="#education">Education</a>
         <a href="#experience">Experience</a>
@@ -38,11 +43,20 @@
 
 <section class="hero" id="home">
 
-    <div class="hero-decoration"></div>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 500 500" fill="none"><defs><linearGradient id="orbit-color" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a3c8fb"/><stop offset="1" stop-color="#568474"/></linearGradient></defs>
+      <g class="orbit-lines" stroke="url(#orbit-color)" stroke-width="1">
+      <circle cx="250" cy="250" r="175"/><ellipse cx="250" cy="250" rx="175" ry="65" transform="rotate(-35 250 250)"/>
+      <ellipse cx="250" cy="250" rx="175" ry="65" transform="rotate(35 250 250)"/><ellipse cx="250" cy="250" rx="65" ry="175"/>
+      <circle cx="250" cy="250" r="115" stroke-dasharray="2 8"/></g>
+      <path d="M45 250H455M250 45V455" stroke="#c7d1df" stroke-opacity=".16"/>
+      <circle cx="250" cy="250" r="8" fill="#a3c8fb"/><circle cx="425" cy="250" r="5" fill="#aacdbd"/>
+      </svg><span class="art-label art-label-one">THINK ANALYTICALLY</span><span class="art-label art-label-two">BUILD WITH PURPOSE</span>
+    </div>
 
     <div class="hero-content">
 
-        <p class="hero-label">Portfolio</p>
+        <p class="hero-label">Mathematics · Programming · Finance</p>
 
         <h1>Zakarya<br>Sellami</h1>
 
@@ -54,16 +68,18 @@
             Université Paris 1 Panthéon-Sorbonne
         </p>
 
+        <p class="hero-intro">Exploring ideas through mathematics.<br>Turning them into projects through code.</p>
         <div class="hero-links">
+            <a href="#projects" class="hero-link primary-link">Explore my projects <span>↓</span></a>
 
             <a href="https://github.com/zakaryaslm"
-               target="_blank"
+               target="_blank" rel="noopener noreferrer"
                class="hero-link">
                 GitHub <span>↗</span>
             </a>
 
             <a href="https://www.linkedin.com/in/zakarya-sellami/"
-               target="_blank"
+               target="_blank" rel="noopener noreferrer"
                class="hero-link">
                 LinkedIn <span>↗</span>
             </a>
@@ -77,8 +93,7 @@
 
     </div>
 
-    <div class="scroll-indicator">
-    </div>
+    <a class="scroll-indicator" href="#about">Discover my story <span aria-hidden="true">↓</span></a>
 
 </section>
 
@@ -311,7 +326,7 @@
 
             </div>
 
-            <span class="experience-arrow">↗</span>
+            
 
         </article>
 
@@ -354,7 +369,7 @@
 
             </div>
 
-            <span class="experience-arrow">↗</span>
+            
 
         </article>
 
@@ -397,7 +412,7 @@
 
             </div>
 
-            <span class="experience-arrow">↗</span>
+            
 
         </article>
 
@@ -440,7 +455,7 @@
 
             </div>
 
-            <span class="experience-arrow">↗</span>
+            
 
         </article>
 
@@ -461,84 +476,24 @@
         <h2>Projects</h2>
     </div>
 
-    <div class="projects-grid">
-
-
-        <!-- RESEARCH -->
-
-        <article class="project-card">
-
-            <div class="project-top">
-                <span>Jan — Jun 2026</span>
-                <span class="project-arrow">↗</span>
-            </div>
-
-            <div class="project-icon">
-                ∑ Université Paris 1 Panthéon-Sorbonne
-            </div>
-
-            <div class="project-info">
-
-                <h3>
-                    Risk Measurement Theory
-                </h3>
-
-                <p>
-                    Master 1 research project studying risk measures,
-                    from Value-at-Risk to Expected Shortfall, combining
-                    theoretical analysis with empirical applications
-                    and portfolio optimisation.
-                </p>
-
-                <div class="tags">
-                    <span>Research</span>
-                    <span>Programming</span>
-                    <span>Risk</span>
-                    <span>Finance</span>
-                </div>
-
-            </div>
-
-        </article>
-
-
-        <!-- KPMG -->
-
-        <article class="project-card">
-
-            <div class="project-top">
-                <span>Oct — Dec 2025</span>
-                <span class="project-arrow">↗</span>
-            </div>
-
-            <div class="project-icon">
-                ◈ KPMG
-            </div>
-
-            <div class="project-info">
-
-                <h3>
-                    AI Strategic Monitoring
-                </h3>
-
-                <p>
-                    Consulting hackathon focused on the development
-                    of an AI-based RAG solution for automating
-                    strategic monitoring and processing external data.
-                </p>
-
-                <div class="tags">
-                    <span>Consulting</span>
-                    <span>AI</span>
-                    <span>Data</span>
-                    <span>Strategy</span>
-                </div>
-
-            </div>
-
-        </article>
-
-    </div>
+<p class="section-intro">A selection of academic and personal work. Different questions, one common thread: learning by building.</p>
+<div class="projects-grid"><article class="project-card">
+      <div class="project-visual visual-risk" aria-hidden="true"><span class="visual-number">01</span><span class="visual-symbol">σ</span><span class="visual-caption">MEASURE · TEST · OPTIMISE</span></div>
+      <div class="project-body"><p class="project-meta">Research · 2026</p><h3>Risk Measurement Theory</h3><p class="project-lead">From measuring losses to understanding risk.</p><p>Master 1 research exploring Value-at-Risk and Expected Shortfall, with backtesting, stress testing and CVaR portfolio optimisation.</p>
+      <div class="tags"><span>Python</span><span>NumPy / pandas</span><span>SciPy</span><span>Risk</span></div>
+      <details><summary>Inside the project <span aria-hidden="true">+</span></summary><p>The work connects the theory of risk measures with empirical portfolio applications, using Python to analyse risk and implement optimisation methods.</p></details><a class="project-link" href="https://github.com/zakaryaslm/Memoire-M1" target="_blank" rel="noopener noreferrer">Explore the research <span aria-hidden="true">↗</span></a></div></article><article class="project-card">
+      <div class="project-visual visual-scraper" aria-hidden="true"><span class="visual-number">02</span><div class="code-lines"><span>01 &nbsp; Collect</span><span>02 &nbsp; Filter</span><span>03 &nbsp; Organise ↗</span></div></div>
+      <div class="project-body"><p class="project-meta">Personal project · 2026</p><h3>Market Internship Scraper</h3><p class="project-lead">A practical problem. A tool built to solve it.</p><p>A personal project designed to collect, filter and organise internship opportunities using criteria such as location, publication date and role.</p>
+      <div class="tags"><span>Python</span><span>Automation</span><span>Data filtering</span></div>
+      <details><summary>Inside the project <span aria-hidden="true">+</span></summary><p>Built around a concrete need: reducing manual searches across job sources. The repository describes the filtering approach and planned extensions, including additional sources and notifications.</p></details><a class="project-link" href="https://github.com/zakaryaslm/market-internship-scraper" target="_blank" rel="noopener noreferrer">View the repository <span aria-hidden="true">↗</span></a></div></article><article class="project-card">
+      <div class="project-visual visual-model" aria-hidden="true"><span class="visual-number">03</span><span class="visual-symbol">S<sub>t</sub></span><span class="visual-caption">MODEL · ESTIMATE · ANALYSE</span></div>
+      <div class="project-body"><p class="project-meta">Licence 3 · Academic project</p><h3>Financial Modelling & Statistics</h3><p class="project-lead">Connecting mathematical models with data.</p><p>Study of a discrete Black–Scholes process and volatility estimation in Python, complemented by statistical analysis in R.</p>
+      <div class="tags"><span>Python / NumPy</span><span>R</span><span>Statistics</span></div>
+      <details><summary>Inside the project <span aria-hidden="true">+</span></summary><p>The project combines financial modelling with statistical tools: hypothesis testing, regression and analysis of variance (ANOVA).</p></details></div></article><article class="project-card">
+      <div class="project-visual visual-ai" aria-hidden="true"><span class="visual-number">04</span><div class="ai-nodes"><span>Sources</span><span>Retrieval</span><span>Insights</span></div></div>
+      <div class="project-body"><p class="project-meta">KPMG · Oct–Dec 2025</p><h3>AI Strategic Monitoring</h3><p class="project-lead">Making external information easier to explore.</p><p>A consulting hackathon focused on an AI-based RAG solution for automating strategic monitoring and processing external data.</p>
+      <div class="tags"><span>AI</span><span>RAG</span><span>Data</span><span>Consulting</span></div>
+      <details><summary>Inside the project <span aria-hidden="true">+</span></summary><p>A project at the intersection of technology and business: exploring how retrieval-augmented generation can support strategic monitoring.</p></details></div></article></div>
 
 </section>
 
@@ -621,7 +576,7 @@
                 </div>
 
                 <div>
-                    <span>Darija (Morrocan)</span>
+                    <span>Darija (Moroccan)</span>
                     <strong>Native</strong>
                 </div>
 
@@ -900,7 +855,7 @@
         <!-- LINKEDIN -->
 
         <a href="https://www.linkedin.com/in/zakarya-sellami/"
-           target="_blank"
+           target="_blank" rel="noopener noreferrer"
            class="contact-item">
 
             <div class="contact-icon">
@@ -927,7 +882,7 @@
         <!-- GITHUB -->
 
         <a href="https://github.com/zakaryaslm"
-           target="_blank"
+           target="_blank" rel="noopener noreferrer"
            class="contact-item">
 
             <div class="contact-icon">
@@ -970,10 +925,11 @@
      FOOTER
 ===================================================== -->
 
-<footer>
+<footer><a href="#home" class="footer-top">Back to top ↑</a>
     <p>© 2026 Zakarya Sellami</p>
 </footer>
 
 <script src="script.js"></script>
 </body>
 </html>
+
