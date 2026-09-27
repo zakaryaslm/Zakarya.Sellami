@@ -8,4 +8,6 @@ Downloaded on 2026-09-27 from the organisations' official websites, used to iden
 - Parkours: https://cdn.prod.website-files.com/66a630380850fb64f5ead35d/66a63061662062b2ef3cac4c_parkours-logo-p-500.png (linked from https://www.parkours.fr/).
 - Aquila RH: https://www.aquila-rh.com/wp-content/themes/mtg-enseignes/assets/images/logos/logo-2.svg
 
-42 is displayed as plain text, not a reproduced logo. No logo has been invented for organisations without a verified asset.
+42 logo: https://cdn.simpleicons.org/42 (Simple Icons).
+
+maths.svg and startup.svg are custom generic illustrations for tutoring and startup work, not company logos. The Parkours wordmark is retained as an unused source asset.
