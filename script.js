@@ -30,6 +30,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     document.querySelector('#filter-status').textContent = `${count} project${count === 1 ? '' : 's'} shown`;
   }));
+  if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const enter = new IntersectionObserver(entries => entries.forEach(entry => {
+      if(entry.isIntersecting) { entry.target.classList.add('just-entered'); enter.unobserve(entry.target); }
+    }), {threshold:0.2});
+    document.querySelectorAll('.section-heading').forEach(el => enter.observe(el));
+  }
   if ('IntersectionObserver' in window) {
     const links = [...nav.querySelectorAll('a')];
     const observer = new IntersectionObserver(entries => {
