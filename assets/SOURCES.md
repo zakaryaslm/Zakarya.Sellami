@@ -11,3 +11,5 @@ Downloaded on 2026-09-27 from the organisations' official websites, used to iden
 42 logo: https://cdn.simpleicons.org/42 (Simple Icons).
 
 maths.svg and startup.svg are custom generic illustrations for tutoring and startup work, not company logos. The Parkours wordmark is retained as an unused source asset.
+
+2026-09-27 update: maths.svg is a minimal summation symbol; data.svg is a generic database illustration. Aquila SVG has its intrinsic viewBox restored for proportional scaling; brand colours are unchanged.
